@@ -5,7 +5,7 @@ The second parameter in a route, which is the closure function, can include para
 Example:
 ```php
 use PhpSlides\Router\Route;
-use Phpslides\Core\Http\Request;
+use PhpSlides\Core\Http\Request;
 
 Route::post("/add-data", function (Request $req) {
     $data = $req->post('key');
@@ -16,4 +16,4 @@ Here:
 - `$req` is an instance of `Phpslides\Core\Http\Request`.
 - You can use methods like `post()` to access post request data.
 
-Learn more about `Request` and its methods in the full documentation.
+Learn more about [`Request`](/http_request.md) and its methods in the full documentation.

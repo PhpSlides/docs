@@ -2,27 +2,27 @@
 
 ## 1. Getting Started
 
-- Introduction to PhpSlides Framework
-- Installation Guide
-- Project Directory Structure
-- Basic Configuration
+- [Introduction to PhpSlides Framework](/introduction.md)
+- [Installation Guide](/installation.md)
+- [Project Directory Structure](/project_structure.md)
+- [Basic Configuration](/configuration.md)
 - Quick Start Guide
 
 ## 2. Core Concepts
 
 ### 2.1 Routing System
-- Basic Route Handling
+- [Basic Route Handling](/web_routing.md)
 - HTTP Methods and Closures
-  - GET Requests
-  - POST Requests
-  - PUT Requests
-  - PATCH Requests
-  - DELETE Requests
-- Route Parameters
+  - [GET Requests](/web_routing.md#get-route-with-closure)
+  - [POST Requests](/web_routing.md#post-route-with-closure)
+  - [PUT Requests](/web_routing.md#put-route-with-closure)
+  - [PATCH Requests](/web_routing.md#patch-route-with-closure)
+  - [DELETE Requests](/web_routing.md#delete-route-with-closure)
+- [Route Parameters](/route_parameters.md)
 - Named Routes
 - Route Groups
 - Protected Routes
-- Route Maps
+- Route Mapping
 
 ### 2.2 View System
 

@@ -16,7 +16,7 @@ Replace "ProjectName" with your desired project name (this will also be used as 
 #### Method 2: Using PhpSlides CLI
 1. First, install the PhpSlides CLI tool:
 ```bash
-composer global require phpslide/cli
+composer global require phpslides/cli
 ```
 
 2. Verify installation:
@@ -36,7 +36,7 @@ git clone https://github.com/phpslides/phpslides.git
 ```
 
 2. If no terminal is available, you can download the template directly from GitHub:
-   - Visit: https://github.com/phpslides/phpslides
+   - Visit: [https://github.com/phpslides/phpslides](https://github.com/phpslides/phpslides)
    - Follow the phpslides URL on GitHub
 
 ### Post-Installation
@@ -52,8 +52,8 @@ project-root/
 ├── app/
 │   ├── Forgery/
 │   ├── Http/
-│   │   ├── Controller/
-│   │   └── Endpoint/
+│   │   ├── Api/
+│   │   └── Controller/
 │   └── Guards/
 ├── src/
 │   ├── configs/
@@ -81,17 +81,17 @@ phpslides make:controller ClassName
 ##### Forgery
 - Contains database structure definitions
 - Used for creating and managing database tables
-- Can be created manually or via CLI commands
+- Can be created manually or via CLI commands `phpslides make:forge dbName "column1 column2"`
 - View complete guide on creating database system in the database section
 
-##### Http/Endpoint
+##### Http/Api
 - Contains API controllers used for endpoints
 - All files must end with "Endpoint"
 - Create API endpoints using:
 ```bash
 phpslides make:api-controller User
 ```
-- Automatically creates `UserEndpoint` class in Http/Endpoint directory
+- Automatically creates `UserEndpoint` class in Http/Api directory
 
 ##### Guards
 - Contains authentication logic
