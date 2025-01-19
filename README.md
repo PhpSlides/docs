@@ -12,7 +12,7 @@
 
 ### 2.1 Routing System
 - [Basic Route Handling](/web_routing.md)
-- HTTP Methods and Closures
+- [HTTP Methods and Closures](/web_routing.md)
   - [GET Requests](/web_routing.md#get-route-with-closure)
   - [POST Requests](/web_routing.md#post-route-with-closure)
   - [PUT Requests](/web_routing.md#put-route-with-closure)
@@ -20,9 +20,12 @@
   - [DELETE Requests](/web_routing.md#delete-route-with-closure)
 - [Route Parameters](/route_parameters.md)
 - Named Routes
-- Route Groups
 - Protected Routes
-- Route Mapping
+- [Route Mapping](/route_mapping.md)
+  - [Pattern Matching Routes](/route_mapping.md#pattern-matching-routes)
+  - [Case Sensitivity](/route_mapping.md#case-sensitivity)
+  - [Nested Routes](/route_mapping.md#nested-routes)
+  - [Special Cases](/route_mapping.md#special-cases)
 
 ### 2.2 View System
 
